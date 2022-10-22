@@ -30,7 +30,7 @@ public class CupCakeControl : MonoBehaviour
 
         if (!controller.isGrounded)
         {
-            move.y = -9.8f * 100 * Time.deltaTime;
+            move.y = -9.8f * 50 * Time.deltaTime;
         }
 
         controller.Move(move * speed * Time.deltaTime);
